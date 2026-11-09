@@ -1,0 +1,24 @@
+{
+  "name": "refundchain-vue-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "chain": "hardhat node --hostname 127.0.0.1 --port 8545",
+    "deploy": "node scripts/deploy.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "hardhat": "^2.26.3",
+    "solc": "0.8.30",
+    "vite": "^6.3.5"
+  }
+}
